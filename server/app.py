@@ -44,7 +44,7 @@ with app.app_context():
     db.create_all()
 
 # Initialize the Generative AI model and chat session globally
-gemini_api_key = 'AIzaSyD0r7vfPswiDfWFnp7W0d5J9Lmt3u42Jks'
+gemini_api_key  = " # put gemeni api key here "
 genai.configure(api_key=gemini_api_key)
 
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
